@@ -1,0 +1,36 @@
+﻿
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Agregar Libros</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/Agregar.css">
+  <link rel="Shortcut Icon" type="image/x-icon" href="icons/book.ico">
+</head>
+<body>
+  <header>
+        <img src="img/utsoe2.png" class="img-logo">
+
+  </header>
+  <div class="form">
+	<form action="registro.php"   method="POST">
+  		<h2>Nuevo libro</h2>
+  			<p type="Nombre:"><input type="text" class="registro" name="Nom_libro" ></input></p>
+  			<p type="ISBN:"><input type="text" class="registro" name="ISB"></input></p>
+  			<p type="Cantidad de ejemplares:"><input type="text" class="registro" name="Ejemplares"></input></p>
+  			<p type="Ubicación:"><input type="text" class="registro" name="Ubicacion"></input>
+  			
+  			<p type="Descripción:"><input type="tex" name="Descripcion" class="registro"></input></p>
+      <input type="submit" value="Registrar" class="boton"></input>
+  	
+ 	
+</form>
+      <form action="modificar1.php">
+
+    <input type="submit" value="Salir" class="boton1"></input>
+
+      </form>
+</div>
+</body>
+</html>
